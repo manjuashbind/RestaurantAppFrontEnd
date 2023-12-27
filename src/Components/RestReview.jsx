@@ -26,10 +26,10 @@ function RestReview({review}) {
             
          {review?.map(i=>(
              <ListGroup variant="flush">
-             <ListGroup.Item>{i.name}</ListGroup.Item>
+             <ListGroup.Item className='text-info'>{i.name}</ListGroup.Item>
              <ListGroup.Item>{i.date}</ListGroup.Item>
              <ListGroup.Item>{i.comments}</ListGroup.Item>
-             <ListGroup.Item className='text-warning'>{i.rating} Stars</ListGroup.Item>
+             <ListGroup.Item className='text-warning'>{i.rating} <i class="fa-solid fa-star"></i></ListGroup.Item>
              <ListGroup.Item className='text-center text-primary fw-bold '>--------------------------</ListGroup.Item>
            </ListGroup>
 

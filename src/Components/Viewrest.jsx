@@ -17,7 +17,7 @@ function Viewrest() {
     const{id}=useParams()
     console.log(id);
     //Api cll to get details of particular restaurant using the path parameter
-    const base_url='https://restaurantappbackend-q0qr.onrender.com/restaurants'
+    const base_url='http://restaurantappbackend-q0qr.onrender.com/restaurants'
     const fetchRest=async()=>{
         const result=await axios.get(`${base_url}/${id}`)
         console.log(result.data);
@@ -30,14 +30,14 @@ console.log(restDetails);
 
   return (
     <div>
-        <Row>
+        <Row className='row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2'>
             <Col className=''>
             <img src={restDetails.photograph} alt="" className='img-fluid 'style={{width:'650px',height:'550px',objectFit:'cover'}} />
             </Col>
             <Col className='p-3 my-auto'>
             <div>
             <ListGroup>
-              <h1 className=''>{restDetails.name}</h1>
+              <h1 className='text-white'>{restDetails.name}</h1>
       <ListGroup.Item>Neighbourhood :{restDetails.neighborhood} </ListGroup.Item>
       <ListGroup.Item>Cuisine Type : {restDetails.cuisine_type}</ListGroup.Item>
       <ListGroup.Item>Address: {restDetails.address}</ListGroup.Item>
