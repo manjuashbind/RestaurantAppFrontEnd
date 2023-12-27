@@ -1,38 +1,6 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow:wght@700&family=Croissant+One&family=Dancing+Script:wght@500;600;700&family=Fuggles&family=Kaisei+HarunoUmi:wght@700&family=Kalnia:wght@200;300;400&family=Kaushan+Script&family=Lobster&family=Maven+Pro:wght@500&family=Montserrat:wght@100&family=Mooli&family=Mulish:wght@300;600;700&family=Playfair+Display&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&family=Shadows+Into+Light&family=Zeyada&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Kalnia', serif;
 }
