@@ -11,19 +11,19 @@ import {
 function Footer() {
   return (
     <div>
-        <MDBFooter className='text-center text-white' style={{ backgroundColor: '#f1f1f1' }}>
+        <MDBFooter className='text-center text-primary bg-black' >
       <MDBContainer className='pt-4'>
         <section className='mb-4'>
-          <MDBBtn  rippleColor="dark"   color='link'  floating  size="lg"  className='text-dark m-1'  href='#!'  role='button' >
+          <MDBBtn  rippleColor="dark"     floating  size="lg"  className='text-primary m-1 p-0 bg-black'  href='#!'  role='button' >
             <MDBIcon fab className='fab fa-facebook-f' />
           </MDBBtn>
 
           <MDBBtn
             rippleColor="dark"
-            color='link'
+           
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-primary m-1 p-0 bg-black'
             href='#!'
             role='button'
           >
@@ -32,10 +32,10 @@ function Footer() {
 
           <MDBBtn
             rippleColor="dark"
-            color='link'
+            
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-primary m-1 p-0 bg-black'
             href='#!'
             role='button'
           >
@@ -44,10 +44,10 @@ function Footer() {
 
           <MDBBtn
             rippleColor="dark"
-            color='link'
+            
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-primary m-1 p-0 bg-black'
             href='#!'
             role='button'
           >
@@ -56,10 +56,10 @@ function Footer() {
 
           <MDBBtn
             rippleColor="dark"
-            color='link'
+           
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-primary m-1 p-0 bg-black'
             href='#!'
             role='button'
           >
@@ -68,10 +68,10 @@ function Footer() {
 
           <MDBBtn
             rippleColor="dark"
-            color='link'
+            
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-primary m-1 p-0 bg-black'
             href='#!'
             role='button'
           >
@@ -80,10 +80,10 @@ function Footer() {
         </section>
       </MDBContainer>
 
-      <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
+      <div className='text-center text-dark p-3 bg-black' >
+        © 2023 Copyright:
         <a className='text-dark' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+          RestoCafe.com
         </a>
       </div>
     </MDBFooter>

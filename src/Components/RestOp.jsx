@@ -12,7 +12,7 @@ function RestOp({op}) {
   const handleShow = () => setShow(true);
   return (
     <div>
-         <Button variant="dark" style={{color:'white'}} onClick={handleShow}>
+         <Button variant="primary" style={{color:'white'}} onClick={handleShow}>
        Operating Hours
       </Button>
 
@@ -23,7 +23,7 @@ function RestOp({op}) {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>OPERATING HOURS</Modal.Title>
+          <Modal.Title >OPERATING HOURS  </Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <ListGroup>
