@@ -1,7 +1,13 @@
 {
   "files": {
     "main.css": "/RestaurantAppFrontEnd/static/css/main.a6bed23a.css",
-    "main.js": "/RestaurantAppFrontEnd/static/js/main.755e050d.js",
+    "main.js": "/RestaurantAppFrontEnd/static/js/main.6d896f33.js",
+    "static/media/img5.jpg": "/RestaurantAppFrontEnd/static/media/img5.3f6d9bbca93a65f6d3c2.jpg",
+    "static/media/img2.jpg": "/RestaurantAppFrontEnd/static/media/img2.fefc93f502047be9030f.jpg",
+    "static/media/img6.jpg": "/RestaurantAppFrontEnd/static/media/img6.10c59d195925e716495d.jpg",
+    "static/media/img4.jpg": "/RestaurantAppFrontEnd/static/media/img4.116ce195cfea51055fd9.jpg",
+    "static/media/img1.jpg": "/RestaurantAppFrontEnd/static/media/img1.389e96f52138b3e10f2b.jpg",
+    "static/media/img3.jpg": "/RestaurantAppFrontEnd/static/media/img3.02faaef1016b138077b4.jpg",
     "static/media/fa-solid-900.ttf": "/RestaurantAppFrontEnd/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/fa-brands-400.ttf": "/RestaurantAppFrontEnd/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
     "static/media/fa-solid-900.woff2": "/RestaurantAppFrontEnd/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
@@ -12,10 +18,10 @@
     "static/media/fa-v4compatibility.woff2": "/RestaurantAppFrontEnd/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/RestaurantAppFrontEnd/index.html",
     "main.a6bed23a.css.map": "/RestaurantAppFrontEnd/static/css/main.a6bed23a.css.map",
-    "main.755e050d.js.map": "/RestaurantAppFrontEnd/static/js/main.755e050d.js.map"
+    "main.6d896f33.js.map": "/RestaurantAppFrontEnd/static/js/main.6d896f33.js.map"
   },
   "entrypoints": [
     "static/css/main.a6bed23a.css",
-    "static/js/main.755e050d.js"
+    "static/js/main.6d896f33.js"
   ]
 }
